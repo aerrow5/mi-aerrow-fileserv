@@ -11,8 +11,8 @@ set -o errexit
 echo "* Configuring image specific packages.";
 
 # add users for kbrs
-/usr/sbin/groupadd -g 5092 dsapid
-/usr/sbin/useradd -u 5092 -g dsapid -d /opt/dsapid -s /usr/bin/bash dsapid
+/usr/sbin/groupadd pbulk 
+/usr/sbin/useradd -g pbulk pbulk
 
 # Clean up
 echo "* Cleaning up."
