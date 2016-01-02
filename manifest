@@ -1,0 +1,7 @@
+name="aerrow-fileserv"
+organization="Joyent"
+brand="Instance"
+version="1.0.0"
+description="Description for image aerrow-fileserv"
+homepage="http://wiki.joyent.com/jpc2/aerrow-fileserv+Instance"
+users="root admin"
