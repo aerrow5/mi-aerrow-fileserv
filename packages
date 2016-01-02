@@ -1,4 +1,9 @@
 # List packages to add to your image one per line.
+# dont like vim
 nano
+# core programs
 samba
 netatalk
+# tools
+coreutils
+findutils
