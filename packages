@@ -7,6 +7,3 @@ findutils
 # core programs
 samba
 netatalk
-# tools
-coreutils
-findutils
