@@ -10,7 +10,7 @@ set -o errexit
 # Configuring image specific packages
 echo "* Configuring image specific packages.";
 
-# add users for kbrs
+# add users for krb5
 /usr/sbin/groupadd pbulk 
 /usr/sbin/useradd -g pbulk pbulk
 
