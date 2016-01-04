@@ -11,7 +11,7 @@ set -o errexit
 echo "* Configuring image specific packages.";
 
 # create service for netatalk:
-svccfg import /opt/local/etc/svc/manifest/netatalk.xml
+svccfg import /opt/local/etc/lib/manifest/netatalk.xml
 
 # add users for krb5
 #/usr/sbin/groupadd pbulk 
