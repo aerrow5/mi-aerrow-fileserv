@@ -10,9 +10,12 @@ set -o errexit
 # Configuring image specific packages
 echo "* Configuring image specific packages.";
 
+# create service for netatalk:
+svccfg import /opt/local/etc/svc/manifest/netatalk.xml
+
 # add users for krb5
-/usr/sbin/groupadd pbulk 
-/usr/sbin/useradd -g pbulk pbulk
+#/usr/sbin/groupadd pbulk 
+#/usr/sbin/useradd -g pbulk pbulk
 
 # Clean up
 echo "* Cleaning up."
