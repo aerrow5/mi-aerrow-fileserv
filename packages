@@ -3,4 +3,9 @@
 nano
 # core programs
 samba
-netatalk
+# for netatalk
+gcc47
+gmake
+libevent
+libgcrypt
+openssl
