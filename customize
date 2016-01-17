@@ -10,9 +10,9 @@ set -o errexit
 # Configuring image specific packages
 echo "* Configuring image specific packages.";
 
-# add users for krb5
-#/usr/sbin/groupadd pbulk 
-#/usr/sbin/useradd -g pbulk pbulk
+# add default fileserv user:
+groupadd -g 1000 fileserv
+useradd -g 1000 -d /tmp -s /usr/bin/false fileserv
 
 # Clean up
 echo "* Cleaning up."
