@@ -9,3 +9,4 @@ gmake
 libevent
 libgcrypt
 # openssl already in minimal
+rsync
