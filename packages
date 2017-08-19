@@ -1,6 +1,19 @@
 # List packages to add to your image one per line.
 # dont like vim
 nano
+# additional tools
+diffutils
+htop
+logcheck
+# transport:
+curl
+wget
+# other:
+grep
+gsed
+# colorlog + remote logging
+ccze
+rsyslog
 # apple file services
 netatalk3
 samba
