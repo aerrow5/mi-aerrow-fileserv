@@ -10,9 +10,11 @@ set -o errexit
 # Configuring image specific packages
 echo "* Configuring image specific packages.";
 
-# add default fileserv user:
+# add default fileserv users:
 groupadd -g 1000 fileserv
 useradd -g 1000 -d /tmp -s /usr/bin/false fileserv
+useradd -g 1000 -d /tmp -s /usr/bin/false arthur
+useradd -g 1000 -d /tmp -s /usr/bin/false gees
 
 # Clean up
 echo "* Cleaning up."
