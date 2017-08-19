@@ -1,7 +1,11 @@
 # Changelog for mi-aerrow-fileserv
 
-aerrow-fileserv-15.3.0
-* Initial design
+v17.2.0
+* Bump to new release vm + use standard netatalk3 package
 
 v15.3.0a
 * Fixed bugs, added creation user
+
+aerrow-fileserv-15.3.0
+* Initial design
+
