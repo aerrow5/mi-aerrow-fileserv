@@ -16,6 +16,9 @@ useradd -g 1000 -d /tmp -s /usr/bin/false fileserv
 useradd -g 1000 -d /tmp -s /usr/bin/false arthur
 useradd -g 1000 -d /tmp -s /usr/bin/false gees
 
+# create subdir for samba logging
+mkdir -p /var/log/samba
+
 # Clean up
 echo "* Cleaning up."
 rm -rf /root/*
