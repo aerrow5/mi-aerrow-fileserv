@@ -1,5 +1,8 @@
 # Changelog for mi-aerrow-fileserv
 
+v17.3.0
+* Update to base 17.3.0
+
 v17.2.0
 * Bump to new release vm + use standard netatalk3 package
 

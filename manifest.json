@@ -1,6 +1,6 @@
 {
   "name":         "aerrow-fileserv",
-  "version":      "17.2.0",
+  "version":      "17.3.0",
   "description":  "Fileserver for APF connections",
   "organization": "Artned",
   "brand":        "Artned",
